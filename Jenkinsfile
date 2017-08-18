@@ -25,7 +25,7 @@ node('jenkins-docker-3') {
       // Configure which branches should get the following configurations. The
       // configurations are stored in the /build directory and controles the
       // Jenkins build and Kubernetes deployment.
-      def List envPatterns = [
+      def envPatterns = [
         [env: 'dev',  regex: /^develop$/],
         [env: 'test', regex: /^release\/v[0-9]+\.[0-9]+\.[0-9]+$/],
         [env: 'prod', regex: /^master$/],
@@ -111,7 +111,7 @@ node('jenkins-docker-3') {
         config.DOCKER_TAG = doc.buildTag()
         config.DOCKER_IMAGE = doc.image(config.DOCKER_REGISTRY)
 
-        image = docker.build(conf.image())
+        image = docker.build(doc.image())
       }
 
       // Push the newly built Docker Image to a Docker Registry of your choosing
