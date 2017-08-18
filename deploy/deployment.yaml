@@ -34,19 +34,19 @@ spec:
         image: "${DOCKER_IMAGE}"
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: "${K8S_PORT}"
+        - containerPort: ${K8S_PORT}
           protocol: TCP
           name: http
         livenessProbe:
           httpGet:
             path: /
-            port: "${K8S_PORT}"
+            port: ${K8S_PORT}
           initialDelaySeconds: 15
           timeoutSeconds: 15
         readinessProbe:
           httpGet:
             path: /
-            port: "${K8S_PORT}"
+            port: ${K8S_PORT}
           initialDelaySeconds: 30
           timeoutSeconds: 30
       imagePullSecrets:

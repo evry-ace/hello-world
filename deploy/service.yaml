@@ -12,7 +12,7 @@ metadata:
 spec:
   ports:
   - port: 80
-    targetPort: "${K8S_PORT}"
+    targetPort: ${K8S_PORT}
   selector:
     app: "${K8S_APP}"
     component: "${K8S_NAME}"
