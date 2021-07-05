@@ -16,4 +16,4 @@ services:
     command: yarn run start
 
   mongo:
-    image: mongo:3.4
+    image: mongo:4.4
