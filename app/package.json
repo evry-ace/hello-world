@@ -27,7 +27,7 @@
     "grunt-contrib-watch": "1.1.0",
     "jquery": "^3.4.0",
     "nsp": "^2.7.0",
-    "semantic-ui-less": "^2.2.12",
+    "semantic-ui-less": "2.4.1",
     "supertest": "3.4.2",
     "supervisor": "^0.12.0"
   },
