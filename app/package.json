@@ -14,22 +14,22 @@
     "prom-client": "^10.2.0"
   },
   "devDependencies": {
-    "ava": "^0.22.0",
-    "eslint": "^4.18.2",
-    "eslint-config-airbnb-base": "^11.3.2",
-    "eslint-plugin-import": "^2.5.0",
-    "eslint-watch": "^3.1.2",
+    "ava": "0.22.0",
+    "eslint": "4.18.2",
+    "eslint-config-airbnb-base": "11.3.2",
+    "eslint-plugin-import": "2.8.0",
+    "eslint-watch": "3.1.3",
     "grunt": "^1.0.1",
     "grunt-cli": "1.4.3",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-concat": "1.0.1",
+    "grunt-contrib-copy": "1.0.0",
+    "grunt-contrib-less": "1.4.1",
     "grunt-contrib-watch": "1.1.0",
     "jquery": "^3.4.0",
-    "nsp": "^2.7.0",
-    "semantic-ui-less": "^2.2.12",
+    "nsp": "2.8.1",
+    "semantic-ui-less": "2.2.12",
     "supertest": "3.4.2",
-    "supervisor": "^0.12.0"
+    "supervisor": "0.12.0"
   },
   "scripts": {
     "grunt": "grunt",
