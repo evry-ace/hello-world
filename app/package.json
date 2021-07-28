@@ -11,7 +11,7 @@
     "express": "^4.15.4",
     "mongoose": "^5.7.5",
     "nunjucks": "^3.0.1",
-    "prom-client": "^10.2.0"
+    "prom-client": "^13.0.0"
   },
   "devDependencies": {
     "ava": "^0.22.0",
